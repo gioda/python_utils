@@ -3,7 +3,7 @@
 # @Author: Dalmasso Giovanni <gioda>
 # @Date:   09-Feb-2018
 # @Email:  giovanni.dalmasso@embl.es
-# @Project: 3D reconstruction
+# @Project: python_utils
 # @Filename: colors.py
 # @Last modified by:   gioda
 # @Last modified time: 09-Feb-2018
