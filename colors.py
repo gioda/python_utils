@@ -10,7 +10,7 @@
 # @License: MIT
 
 
-"""Collection of basic colors as RGB for plotting (inspired by "Tableau" www.tableau.com)"""
+"""Collection of basic colors as RGB for plotting (inspired by "Tableau" www.tableau.com)."""
 
 
 def colBase10():
