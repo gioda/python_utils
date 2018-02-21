@@ -5,8 +5,8 @@
 # @Email:  giovanni.dalmasso@embl.es
 # @Project: python_utils
 # @Filename: colors.py
-# @Last modified by:   gioda
-# @Last modified time: 09-Feb-2018
+# @Last modified by:   gio
+# @Last modified time: 21-Feb-2018
 # @License: MIT
 
 
@@ -23,6 +23,7 @@ def colBase10():
         r, g, b = col[j]
         col[j] = (r / 255., g / 255., b / 255.)
 
+    col = col * 100
     return col
 
 
@@ -36,6 +37,7 @@ def colLight():
         r, g, b = col[j]
         col[j] = (r / 255., g / 255., b / 255.)
 
+    col = col * 100
     return col
 
 
@@ -49,6 +51,7 @@ def colMedium():
         r, g, b = col[j]
         col[j] = (r / 255., g / 255., b / 255.)
 
+    col = col * 100
     return col
 
 
@@ -62,6 +65,7 @@ def colCblind():
         r, g, b = col[j]
         col[j] = (r / 255., g / 255., b / 255.)
 
+    col = col * 100
     return col
 
 
@@ -74,6 +78,7 @@ def colGrey():
         r, g, b = col[j]
         col[j] = (r / 255., g / 255., b / 255.)
 
+    col = col * 100
     return col
 
 
@@ -87,6 +92,7 @@ def colTrafficLigth():
         r, g, b = col[j]
         col[j] = (r / 255., g / 255., b / 255.)
 
+    col = col * 100
     return col
 
 
@@ -100,6 +106,7 @@ def colPurpleGrey():
         r, g, b = col[j]
         col[j] = (r / 255., g / 255., b / 255.)
 
+    col = col * 100
     return col
 
 
@@ -116,4 +123,5 @@ def colBase20():
         r, g, b = col[j]
         col[j] = (r / 255., g / 255., b / 255.)
 
+    col = col * 100
     return col
